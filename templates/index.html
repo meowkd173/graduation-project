@@ -18,10 +18,13 @@
             <a class="list-item__link" href="#home">HOME</a>
           </li>
           <li class="main-list__item list-item">
-            <a class="list-item__link" href="#what">WHAT IS THAT?</a>
+            <a class="list-item__link" href="#help">HOW TO HELP?</a>
           </li>
           <li class="main-list__item list-item">
-            <a class="list-item__link" href="#help">HOW TO HELP?</a>
+            <a class="list-item__link" href="#What">WHAT IS THAt?</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#feedback">FEEDBACK</a>
           </li>
         </ul>
       </nav>
@@ -94,7 +97,7 @@
                 height="150"
               />
               <span class="help__info">Загрязнения</span>
-" t           <p class="help-block__text">
+              <p class="help-block__text">
                 Дабы избежать более серьезных последствий, лучше использовать более экологичные 
                 виды транспорта, например автобус, в котором за раз можно перевезти кучу людей.
                 Еще очень хорошо на короткие расстояния использовать велосипеды, самокаты и все 
@@ -113,46 +116,18 @@
                 width="150"
                 height="150"
               />
-              <span class="skill__info">Skill info</span>
-              <input class="skill__button" type="submit" name="button_html" value="SHOW PROJECT">
-            </li>
-            <li class="skills-list__skill skill">
-              <img
-                class="skill__img"
-                src="../static/img/db.webp"
-                alt="SQL"
-                width="150"
-                height="150"
-              />
-              <span class="skill__info">Skill info</span>
-              <input class="skill__button" type="submit" name="button_db" value="SHOW PROJECT">
+              <span class="help__info">Экономия</span>
+              <p class="help-list__help skill">
+                Так как при выроботке электроэнергии производятся отходы, которые вредят окружению
+                предлагаю немного экономить электричество. Также постарайтесь не тратить уйму воды.
+                Хоть у нас на земле и много воды, но со временем эта вода загрязняется, воды стает 
+                меньше, а также она засаливается. Попытайтесь также использовать меньше пластиковых 
+                упаковок. вместо них лучше использовать более экологичные, пусть это может быть не 
+                всегда удобно. Постарайтесь использовать одежду подольше, а не "на один день". 
+              </p>
             </li>
           </ul>
         </form>
-        {% if button_python%}
-          <div class="skills__project project" id="project">
-              <img class="project__img" src="../static/img/python-project.png" alt="project" width="500">
-              <a class="project__link" href="">Открыть на GitHub</a>
-          </div>
-        {% endif %}
-        {% if button_discord%}
-          <div class="skills__project project" id="project">
-              <img class="project__img" src="../static/img/discord_project.png" alt="project" width="500">
-              <a class="project__link" href="">Открыть на GitHub</a>
-          </div>
-        {% endif %}
-        {% if button_discord%}
-          <div class="skills__project project" id="project">
-              <img class="project__img" src="../static/img/html_project.png" alt="project" width="500">
-              <a class="project__link" href="">Открыть на GitHub</a>
-          </div>
-        {% endif %}
-        {% if button_discord%}
-          <div class="skills__project project" id="project">
-              <img class="project__img" src="../static/img/db_project.png" alt="project" width="500">
-              <a class="project__link" href="">Открыть на GitHub</a>
-          </div>
-        {% endif %}
       </section>
       <!-- Секция с формой обратной связи -->
       <section class="main__feedback feedback" id="feedback">
